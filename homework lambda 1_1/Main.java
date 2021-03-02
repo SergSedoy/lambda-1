@@ -20,7 +20,7 @@ public class Main {
         calc.println.accept(a);
         calc.println.accept(b);
 
-        if (c < 0) {
+        if (c == -1) {
             System.out.println("'b' = 0, деление на нуль запрещено!!!");
         } else {
             calc.println.accept(c);
